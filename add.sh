@@ -8,8 +8,5 @@ gitadd=`git add -A`
 
 
 
-if [[ $gitadd != 'Already up to date' ]];
-then
 git commit -m $DATE
 git push
-fi
